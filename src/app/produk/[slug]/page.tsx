@@ -27,7 +27,7 @@ const WA_NUMBER = "628131512261";
 
 function buildWaMessage(productName: string) {
   return encodeURIComponent(
-    `Halo Tenda Lambaroe! \n\nSaya tertarik dengan produk:\n*${productName}*\n\nBoleh saya bertanya mengenai:\n- Harga terbaik\n- Ketersediaan stok\n- Informasi pengiriman\n\nTerima kasih! `
+    "Halo Tenda Lambaroe!\n\nSaya tertarik dengan produk:\n" + productName + "\n\nBoleh saya bertanya mengenai:\n- Harga terbaik\n- Ketersediaan stok\n- Informasi pengiriman\n\nTerima kasih!"
   );
 }
 

@@ -372,6 +372,20 @@
     margin-top: 16px;
     justify-content: center;
     align-self: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  .chips {
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .chip {
+    padding: 8px 10px;
+    font-size: 0.75rem;
+    white-space: nowrap;
   }
 
   /* Strip di bawah, tepat sebelum section berikutnya */

@@ -107,10 +107,10 @@ export default function ContactSection() {
           <div className={styles.footerInner}>
             <div className={styles.footerLogo}>
               <Image
-                src="/images/Logo.png"
+                src="/images/LogoSingle.png"
                 alt="Tenda Lambaroe Logo"
-                width={200}
-                height={60}
+                width={50}
+                height={50}
                 className={styles.footerLogoImg}
               />
             </div>
