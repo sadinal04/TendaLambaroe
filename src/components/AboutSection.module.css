@@ -1,0 +1,217 @@
+/* ─── Section ─── */
+.section {
+  background: var(--color-bg);
+}
+
+/* ─── Header ─── */
+.header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 64px;
+}
+
+/* ─── Profile Block (white card) ─── */
+.profileBlock {
+  background: #fff;
+  border: 1px solid rgba(166, 178, 139, 0.18);
+  border-radius: 20px;
+  padding: 40px 48px;
+  box-shadow: 0 2px 16px rgba(28, 53, 45, 0.04);
+}
+
+.blockTitle {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-secondary);
+  margin-bottom: 24px;
+}
+
+/* ─── Produk Grid ─── */
+.productGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px 40px;
+  margin-bottom: 0;
+}
+
+.productItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.productDot {
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  margin-top: 6px;
+}
+
+.productName {
+  font-size: 0.9rem;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.productDesc {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+}
+
+/* ─── Two Column Layout ─── */
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+/* ─── Keunggulan ─── */
+.keunggulanList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.keunggulanItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.keunggulanIcon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(166, 178, 139, 0.2);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.keunggulanTitle {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.keunggulanDesc {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+}
+
+/* ─── Target & Goal ─── */
+.targetList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.targetChip {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  background: rgba(166, 178, 139, 0.12);
+  border: 1px solid rgba(166, 178, 139, 0.25);
+  border-radius: 100px;
+  padding: 5px 14px;
+}
+
+.goalText {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  text-align: justify;
+  padding-top: 4px;
+  border-top: 1px solid rgba(166, 178, 139, 0.15);
+}
+
+/* ─── Sub Header ─── */
+.subHeader {
+  text-align: center;
+  max-width: 540px;
+  margin: 72px auto 48px;
+}
+
+/* ─── Steps Grid ─── */
+.stepsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.stepCard {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px 32px;
+  border: 1px solid rgba(166, 178, 139, 0.18);
+  box-shadow: 0 2px 16px rgba(28, 53, 45, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.stepCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(28, 53, 45, 0.1);
+}
+
+.stepNum {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: rgba(166, 178, 139, 0.3);
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.stepTitle {
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.stepDesc {
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 1024px) {
+  .productGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .profileBlock {
+    padding: 32px 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .twoCol {
+    grid-template-columns: 1fr;
+  }
+  .stepsGrid {
+    grid-template-columns: 1fr;
+  }
+  .productGrid {
+    grid-template-columns: 1fr;
+  }
+  .profileBlock {
+    padding: 28px 24px;
+  }
+  .subHeader {
+    margin-top: 56px;
+  }
+}
