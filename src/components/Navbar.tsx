@@ -38,8 +38,19 @@ export default function Navbar() {
   return (
     <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
       <div className={`container ${styles.inner}`}>
-        {/* Logo */}
-        <Link href="/" className={styles.logo}>
+        {/* Logo — klik untuk ke beranda / scroll ke atas */}
+        <Link
+          href="/"
+          className={styles.logo}
+          onClick={(e) => {
+            if (typeof window !== 'undefined' && window.location.pathname === '/') {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+              setActive('beranda');
+              setMenuOpen(false);
+            }
+          }}
+        >
           <Image
             src="/images/LogoPanjang.png"
             alt="Tenda Lambaroe Logo"

@@ -71,7 +71,7 @@ export default function ContactSection() {
               </span>
               <div>
                 <h4 className={styles.infoTitle}>Jam Operasional</h4>
-                <p className={styles.infoText}>Senin – Sabtu<br />08.00 – 17.00 WIB</p>
+                <p className={styles.infoText}>Senin – MInggu<br />08.00 – 17.00 WIB</p>
               </div>
             </div>
             <div className={styles.infoCard}>
