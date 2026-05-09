@@ -83,7 +83,7 @@ export default function ContactSection() {
               </span>
               <div>
                 <h4 className={styles.infoTitle}>Lokasi</h4>
-                <p className={styles.infoText}>Jakarta Barat, Indonesia<br />Layanan Seluruh Indonesia</p>
+                <p className={styles.infoText}>Jl. Cengkeh, Jakarta Barat, Indonesia<br />Layanan Seluruh Indonesia</p>
               </div>
             </div>
             <div className={styles.infoCard}>
