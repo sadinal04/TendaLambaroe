@@ -332,13 +332,24 @@
 /* ═══ MOBILE (≤ 900px) ═══ */
 @media (max-width: 900px) {
 
+  .hero {
+    min-height: unset;
+    padding-bottom: 24px;
+  }
+
+  .heroTitle {
+    font-size: clamp(3.2rem, 10vw, 4.5rem); /* Lebih besar di mobile */
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
   /* Stack vertically, text CENTER di mobile */
   .heroInner {
     flex-direction: column;
     align-items: center;
-    padding: 110px 24px 32px 24px;
+    padding: 110px 24px 24px 24px; /* kurangi padding bawah */
     min-height: unset;
-    flex: 1;
+    flex: unset; /* jangan sampai mengisi sisa ruang secara paksa */
     gap: 0;
   }
 
@@ -441,8 +452,8 @@
 }
 
 @keyframes mobileScroll {
-  from { transform: translateX(-50%); }
-  to   { transform: translateX(0); }
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
 }
 
 @media (max-width: 600px) {
