@@ -20,6 +20,20 @@
   min-height: 100vh;
 }
 
+@media (min-width: 1440px) {
+  .heroInner {
+    max-width: 1360px;
+    gap: 60px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .heroInner {
+    max-width: 1536px;
+    gap: 80px;
+  }
+}
+
 /* ─────────────────────────────────────
    LEFT CONTENT
 ───────────────────────────────────── */

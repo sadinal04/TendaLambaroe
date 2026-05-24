@@ -35,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="id" className={`${geistSans.variable} ${geistMono.variable}`} data-scroll-behavior="smooth">
       <head>
         {/* Integral CF via Fontshare */}
         <link rel="preconnect" href="https://api.fontshare.com" />

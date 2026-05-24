@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import styles from "./page.module.css";
+import ProductGallery from "@/components/ProductGallery";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -38,6 +39,7 @@ export default async function ProductDetailPage({ params }: Props) {
   if (!product) notFound();
 
   const waLink = `https://wa.me/${WA_NUMBER}?text=${buildWaMessage(product.name)}`;
+  const detailImages = product.images?.length ? product.images : [product.image];
 
   // Related products (same category, excluding current)
   const related = products
@@ -75,21 +77,15 @@ export default async function ProductDetailPage({ params }: Props) {
             {product.badge && (
               <span className={styles.badge}>{product.badge}</span>
             )}
-            <div className={styles.imageWrap}>
-              <Image
-                src={product.image}
-                alt={product.name}
-                width={800}
-                height={800}
-                className={styles.productImage}
-                priority
-              />
-            </div>
+            <ProductGallery images={detailImages} name={product.name} />
             {/* Category tag below image */}
             <div className={styles.imageFooter}>
               <span className={styles.categoryTag}>{product.category}</span>
               <span className={styles.imageCaption}>{product.name}</span>
             </div>
+            {detailImages.length > 1 && (
+              <p className={styles.galleryHint}>Geser ke samping untuk melihat foto lainnya.</p>
+            )}
 
             {/* CTA Box — sejajar di bawah gambar */}
             <div className={styles.ctaBox}>

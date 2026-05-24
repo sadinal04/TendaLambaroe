@@ -77,28 +77,6 @@
   text-transform: uppercase;
 }
 
-.imageWrap {
-  background: #fff;
-  border-radius: 20px;
-  overflow: hidden;
-  border: 1px solid rgba(166, 178, 139, 0.18);
-  box-shadow: 0 4px 32px rgba(28, 53, 45, 0.07);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  aspect-ratio: 4 / 3;
-  width: 100%;
-}
-
-.productImage {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-  border-radius: 12px;
-  padding: 12px;
-}
-
 .imageFooter {
   display: flex;
   align-items: center;

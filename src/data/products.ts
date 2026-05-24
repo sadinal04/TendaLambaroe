@@ -7,6 +7,7 @@ export interface Product {
   description: string;
   features: string[];
   image: string;
+  images?: string[];
   badge?: string;
 }
 
@@ -255,6 +256,171 @@ export const products: Product[] = [
       "Tidak mudah getas oleh panas matahari"
     ],
     image: "/images/products/Terpal Uno 410-550.jpeg",
+  },
+  {
+    id: 16,
+    slug: "tenda-lipat-printing-logo-premium-3x3",
+    name: "Tenda Lipat Printing Logo Premium 3x3",
+    category: "Tenda",
+    badge: "Premium",
+    shortDesc: "Tenda lipat full printing premium untuk branding usaha yang rapi dan mencolok.",
+    description: "Tenda Lipat Printing Logo Premium 3x3 hadir sebagai solusi terbaik untuk promosi usaha, event, bazar, pameran, hingga kegiatan outdoor. Dengan desain elegan dan cetak logo full printing berkualitas premium, tenda ini mampu meningkatkan branding bisnis agar terlihat lebih profesional dan mudah menarik perhatian pelanggan.\n\nMenggunakan rangka kokoh dan bahan terpal berkualitas, tenda lipat 3x3 ini tetap nyaman dipakai di berbagai kondisi cuaca. Proses printing yang tajam, warna cerah, dan hasil yang awet membuat tampilan brand Anda semakin maksimal.\n\nTOP Tenda Terpal siap membantu kebutuhan tenda promosi custom dengan harga terjangkau dan kualitas terpercaya.",
+    features: [
+      "Ukuran 3x3 meter",
+      "Bisa custom logo & desain",
+      "Material premium & kuat",
+      "Cocok untuk event, UMKM, booth, dan promosi usaha",
+      "Harga terjangkau & kualitas terpercaya"
+    ],
+    image: "/images/products/Tenda Lipat Printing Logo Premium 3x3_1.jpeg",
+    images: [
+      "/images/products/Tenda Lipat Printing Logo Premium 3x3_1.jpeg",
+      "/images/products/Tenda Lipat Printing Logo Premium 3x3_2.jpeg"
+    ],
+  },
+  {
+    id: 17,
+    slug: "terpal-a12-korea-silver-biru",
+    name: "Terpal A12 Korea Silver Biru",
+    category: "Terpal",
+    badge: "Premium",
+    shortDesc: "Terpal A12 premium dengan kombinasi silver biru untuk perlindungan yang kuat dan modern.",
+    description: "Terpal A12 Korea Silver Biru hadir dengan kualitas premium berbahan kuat dan tahan lama untuk berbagai kebutuhan penutup dan perlindungan. Kombinasi warna silver dan biru memberikan tampilan modern sekaligus membantu memantulkan panas lebih optimal, cocok digunakan untuk kebutuhan industri, proyek, pertanian, hingga outdoor.\n\nDengan kualitas standar Korea, terpal ini menjadi pilihan tepat untuk kebutuhan perlindungan maksimal dengan daya tahan tinggi. Materialnya kuat, finishing rapi, dan siap dipakai untuk kebutuhan harian maupun pekerjaan yang menuntut ketahanan lebih.",
+    features: [
+      "Material kuat dan awet",
+      "Tahan air dan cuaca ekstrem",
+      "Permukaan silver membantu mengurangi panas",
+      "Dilengkapi ring mata ikan berkualitas",
+      "Finishing hot press lebih rapi dan kokoh",
+      "List pinggir lebih kuat dan tahan lama",
+      "Cocok untuk penutup barang, gudang, truk, dan proyek"
+    ],
+    image: "/images/products/Terpal A12 Korea Silver Biru.jpeg",
+    images: [
+      "/images/products/Terpal A12 Korea Silver Biru.jpeg",
+      "/images/products/Terpal A12 Korea Silver Biru_2.jpeg",
+      "/images/products/Terpal A12 Korea Silver Biru_3.jpeg"
+    ],
+  },
+  {
+    id: 18,
+    slug: "terpal-uno-410-gsm-merah-hijau",
+    name: "Terpal UNO 410 GSM Merah Hijau",
+    category: "Terpal",
+    shortDesc: "Terpal UNO 410 GSM tebal dan awet untuk kebutuhan penutup serbaguna.",
+    description: "Terpal UNO 410 GSM Merah Hijau hadir dengan material premium berkualitas tinggi yang kuat, tebal, dan tahan lama untuk berbagai kebutuhan penutup dan pelindung. Dengan ketebalan 410 GSM, terpal ini cocok digunakan untuk proyek, pergudangan, pertanian, penutup barang, hingga kebutuhan outdoor lainnya.\n\nTerpal ini menjadi pilihan tepat bagi Anda yang membutuhkan perlindungan maksimal dengan tampilan premium dan kualitas terpercaya. Finishing yang rapi dan material yang kokoh membuatnya nyaman dipakai untuk penggunaan harian maupun jangka panjang.",
+    features: [
+      "Material tebal dan kuat",
+      "Tahan air dan cuaca ekstrem",
+      "Tidak mudah sobek",
+      "Warna merah dan hijau yang elegan",
+      "Dilengkapi ring mata ikan",
+      "Finishing hot press rapi dan kokoh",
+      "List pinggir lebih kuat dan awet"
+    ],
+    image: "/images/products/Terpal Uno 410 GSM_1.jpeg",
+    images: [
+      "/images/products/Terpal Uno 410 GSM_1.jpeg",
+      "/images/products/Terpal Uno 410 GSM_2.jpeg"
+    ],
+  },
+  {
+    id: 19,
+    slug: "terpal-a30-korea",
+    name: "Terpal A30 Korea",
+    category: "Terpal",
+    badge: "Heavy Duty",
+    shortDesc: "Terpal heavy duty A30 Korea dengan daya tahan tinggi untuk kebutuhan industri.",
+    description: "Terpal A30 Korea merupakan terpal heavy duty berkualitas tinggi dengan material kuat dan tahan lama, diproduksi menggunakan teknologi Korea untuk kebutuhan perlindungan maksimal di berbagai kondisi. Cocok digunakan untuk penutup barang, proyek konstruksi, pertanian, pergudangan, hingga kebutuhan outdoor lainnya.\n\nMaterial yang tebal, kuat, dan rapi membuat terpal ini ideal untuk penggunaan yang membutuhkan daya tahan lebih. TOP Tenda Terpal menyediakan solusi terpal berkualitas dengan harga kompetitif untuk kebutuhan usaha maupun pribadi.",
+    features: [
+      "Material tebal dan kuat (Heavy Duty)",
+      "Tahan terhadap panas dan hujan",
+      "Tidak mudah sobek dan awet digunakan",
+      "Dilengkapi ring mata ikan berkualitas",
+      "Finishing hot press lebih rapi dan kuat",
+      "List pinggir lebih kokoh dan tahan lama",
+      "Cocok untuk penggunaan industri dan harian"
+    ],
+    image: "/images/products/Terpal A30 Korea.jpeg",
+  },
+  {
+    id: 20,
+    slug: "terpal-a12-royal-crown",
+    name: "Terpal A12 Royal Crown",
+    category: "Terpal",
+    badge: "Premium",
+    shortDesc: "Terpal premium Royal Crown dengan material kuat dan finishing rapi.",
+    description: "Terpal A12 Royal Crown adalah pilihan terpal berkualitas premium dengan material kuat dan tahan lama, cocok untuk berbagai kebutuhan industri, pertanian, proyek, hingga penutup barang. Menggunakan teknologi Korea dengan standar kualitas tinggi, terpal ini hadir dengan daya tahan optimal terhadap panas, hujan, dan penggunaan jangka panjang.\n\nDengan finishing yang rapi dan konstruksi yang kokoh, terpal ini memberikan perlindungan maksimal sekaligus tampilan yang lebih profesional untuk kebutuhan lapangan maupun operasional usaha.",
+    features: [
+      "Material tebal dan kuat",
+      "Tahan air dan cuaca ekstrem",
+      "Dilengkapi ring mata ikan",
+      "Proses hot press rapi dan kuat",
+      "Finishing list pinggir lebih awet",
+      "Cocok untuk gudang, proyek, kolam, truk, dan kebutuhan outdoor lainnya"
+    ],
+    image: "/images/products/Terpal A12 Royal Crown.jpeg",
+  },
+  {
+    id: 21,
+    slug: "terpal-uno-550-gsm",
+    name: "Terpal UNO 550 GSM",
+    category: "Terpal",
+    badge: "Super Thick",
+    shortDesc: "Terpal UNO 550 GSM tebal untuk perlindungan maksimal di proyek dan kebutuhan industri.",
+    description: "Terpal UNO 550 GSM merupakan pilihan terpal berkualitas tinggi yang dirancang untuk kebutuhan penutup, pelindung, dan aplikasi industri maupun komersial. Dengan ketebalan 550 GSM, terpal ini memiliki daya tahan kuat terhadap cuaca, air, dan penggunaan jangka panjang.\n\nMenggunakan material premium dengan proses hot press, permukaan terpal lebih rapat, kuat, dan tahan sobek. Dilengkapi ring mata ikan serta list pinggir yang rapi dan kokoh, sehingga memudahkan pemasangan dan memberikan perlindungan maksimal.\n\nTOP Tenda Terpal menghadirkan solusi terpal berkualitas dengan material terbaik dan harga kompetitif.",
+    features: [
+      "Ketebalan 550 GSM yang kuat dan awet",
+      "Warna biru dan merah yang elegan",
+      "Tahan air dan tahan cuaca",
+      "Proses hot press untuk hasil lebih kuat",
+      "Dilengkapi ring mata ikan",
+      "Finishing list pinggir rapi dan tahan lama",
+      "Cocok untuk berbagai kebutuhan industri dan outdoor"
+    ],
+    image: "/images/products/Terpal UNO 550 GSM_Biru.jpeg",
+    images: [
+      "/images/products/Terpal UNO 550 GSM_Biru.jpeg",
+      "/images/products/Terpal UNO 550 GSM_Merah.jpeg"
+    ],
+  },
+  {
+    id: 22,
+    slug: "terpal-ulin-pvc-orchid",
+    name: "Terpal ULIN PVC Orchid",
+    category: "Terpal",
+    shortDesc: "Terpal PVC orchid premium yang kuat, lentur, dan cocok untuk kebutuhan outdoor.",
+    description: "Terpal ULIN PVC Orchid hadir sebagai solusi terpal premium dengan material PVC berkualitas tinggi yang kuat, fleksibel, dan tahan lama. Memiliki tampilan warna orchid yang modern dan elegan, terpal ini cocok digunakan untuk berbagai kebutuhan industri, komersial, maupun outdoor.\n\nDiproses menggunakan teknologi hot press, sehingga menghasilkan sambungan yang lebih rapat dan kokoh. Dilengkapi dengan ring mata ikan dan list pinggir yang rapi untuk memudahkan pemasangan serta meningkatkan daya tahan penggunaan.\n\nTOP Tenda Terpal menyediakan berbagai pilihan terpal berkualitas dengan material terbaik untuk kebutuhan usaha, proyek, maupun penggunaan harian.",
+    features: [
+      "Material PVC berkualitas premium",
+      "Warna orchid yang menarik dan modern",
+      "Tahan air dan tahan terhadap cuaca",
+      "Kuat, lentur, dan tidak mudah sobek",
+      "Finishing hot press lebih rapi dan tahan lama",
+      "Dilengkapi ring mata ikan",
+      "Sudah termasuk list pinggir"
+    ],
+    image: "/images/products/Terpal ULIN PVC Orchid_1.jpeg",
+    images: [
+      "/images/products/Terpal ULIN PVC Orchid_1.jpeg",
+      "/images/products/Terpal ULIN PVC Orchid_2.jpeg"
+    ],
+  },
+  {
+    id: 23,
+    slug: "tas-motor-premium",
+    name: "Tas Motor Premium",
+    category: "Aksesoris Tenda",
+    shortDesc: "Tas motor premium yang kuat, praktis, dan cocok untuk aktivitas harian maupun usaha delivery.",
+    description: "TOP Tenda Terpal menghadirkan Tas Motor Premium yang dirancang untuk kebutuhan harian maupun usaha delivery. Dengan bahan tebal dan jahitan kuat, tas ini siap menemani aktivitas Anda dengan aman dan nyaman.\n\nDesainnya praktis, mudah dipasang pada motor, dan cocok digunakan untuk kebutuhan usaha, perjalanan, maupun penggunaan sehari-hari.\n\nDapatkan tas motor berkualitas dengan harga terbaik hanya di TOP Tenda Terpal.",
+    features: [
+      "Material kuat & awet",
+      "Kapasitas besar untuk membawa barang lebih banyak",
+      "Desain simpel dan elegan",
+      "Mudah dipasang pada motor",
+      "Cocok untuk usaha, perjalanan, maupun penggunaan sehari-hari"
+    ],
+    image: "/images/products/TAS MOTOR PREMIUM.jpeg",
   }
 ];
 
