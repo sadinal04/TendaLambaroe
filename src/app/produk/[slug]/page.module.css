@@ -30,6 +30,10 @@
   text-decoration: none;
   transition: gap 0.2s ease;
   padding: 4px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .backBtn:hover {

@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import styles from "./page.module.css";
 import ProductGallery from "@/components/ProductGallery";
+import BackButton from "@/components/BackButton";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -53,12 +54,12 @@ export default async function ProductDetailPage({ params }: Props) {
       <div className={styles.backBar}>
         <div className="container">
           <div className={styles.backBarInner}>
-            <Link href="/" className={styles.backBtn} id="back-to-home-btn">
+            <BackButton className={styles.backBtn} id="back-to-home-btn">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <path d="M19 12H5M12 19l-7-7 7-7"/>
               </svg>
               Kembali ke Beranda
-            </Link>
+            </BackButton>
             <span className={styles.breadcrumb}>
               <span className={styles.breadcrumbMuted}>Produk</span>
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 18l6-6-6-6"/></svg>

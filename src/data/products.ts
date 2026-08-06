@@ -45,6 +45,13 @@ export const products: Product[] = [
       "Cocok untuk promosi, bazar, dan event"
     ],
     image: "/images/products/Tenda Lipat Printing Logo.jpeg",
+    images: [
+      "/images/products/Tenda Lipat Printing Logo.jpeg",
+      "/images/products/Tenda Lipat Printing Logo_2.jpeg",
+      "/images/products/Tenda Lipat Printing Logo_3.jpeg",
+      "/images/products/Tenda Lipat Printing Logo_4.jpeg",
+      "/images/products/Tenda Lipat Printing Logo_5.jpeg"
+    ],
   },
   {
     id: 3,
@@ -94,6 +101,11 @@ export const products: Product[] = [
       "Ideal untuk acara VIP dan pameran elit"
     ],
     image: "/images/products/Tenda Sarnafil.jpeg",
+    images: [
+      "/images/products/Tenda Sarnafil.jpeg",
+      "/images/products/Tenda Sarnafil_2.jpeg",
+      "/images/products/Tenda Sarnafil_3.jpeg"
+    ],
   },
   {
     id: 6,
@@ -124,6 +136,12 @@ export const products: Product[] = [
       "Custom Design: Sesuaikan warna dan logo dengan identitas brand Anda (seperti contoh branding Maxim pada gambar)."
     ],
     image: "/images/products/Payung Parasol Sablon Logo Branding.jpeg",
+    images: [
+      "/images/products/Payung Parasol Sablon Logo Branding.jpeg",
+      "/images/products/Payung Parasol Sablon Logo Branding_2.jpeg",
+      "/images/products/Payung Parasol Sablon Logo Branding_3.jpeg",
+      "/images/products/Payung Parasol Sablon Logo Branding_4.jpeg"
+    ],
   },
   {
     id: 8,
