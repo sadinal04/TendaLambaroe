@@ -28,6 +28,11 @@ export const products: Product[] = [
       "Cocok untuk pesta, pameran, dan acara outdoor"
     ],
     image: "/images/products/Tenda Kerucut.jpeg",
+    images: [
+      "/images/products/Tenda Kerucut.jpeg",
+      "/images/products/Tenda Kerucut_2.jpeg",
+      "/images/products/Tenda Kerucut_3.jpeg"
+    ],
   },
   {
     id: 2,
@@ -50,7 +55,9 @@ export const products: Product[] = [
       "/images/products/Tenda Lipat Printing Logo_2.jpeg",
       "/images/products/Tenda Lipat Printing Logo_3.jpeg",
       "/images/products/Tenda Lipat Printing Logo_4.jpeg",
-      "/images/products/Tenda Lipat Printing Logo_5.jpeg"
+      "/images/products/Tenda Lipat Printing Logo_5.jpeg",
+      "/images/products/Tenda Lipat Printing Logo_6.jpeg",
+      "/images/products/Tenda Lipat Printing Logo_7.jpeg"
     ],
   },
   {
@@ -101,11 +108,6 @@ export const products: Product[] = [
       "Ideal untuk acara VIP dan pameran elit"
     ],
     image: "/images/products/Tenda Sarnafil.jpeg",
-    images: [
-      "/images/products/Tenda Sarnafil.jpeg",
-      "/images/products/Tenda Sarnafil_2.jpeg",
-      "/images/products/Tenda Sarnafil_3.jpeg"
-    ],
   },
   {
     id: 6,
@@ -140,7 +142,10 @@ export const products: Product[] = [
       "/images/products/Payung Parasol Sablon Logo Branding.jpeg",
       "/images/products/Payung Parasol Sablon Logo Branding_2.jpeg",
       "/images/products/Payung Parasol Sablon Logo Branding_3.jpeg",
-      "/images/products/Payung Parasol Sablon Logo Branding_4.jpeg"
+      "/images/products/Payung Parasol Sablon Logo Branding_4.jpeg",
+      "/images/products/Payung Parasol Sablon Logo Branding_5.jpeg",
+      "/images/products/Payung Parasol Sablon Logo Branding_6.jpeg",
+      "/images/products/Payung Parasol Sablon Logo Branding_7.jpeg"
     ],
   },
   {
